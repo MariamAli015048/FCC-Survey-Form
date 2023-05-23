@@ -1,0 +1,138 @@
+* {
+    font-family: 'Varela Round';
+    background-color: rgb(2, 2, 60);
+}
+
+header{
+    color:rgb(200, 200, 231);
+    text-align: center;
+    margin-top:2rem;
+}
+
+p {
+    font-style:italic;
+    margin-bottom: 2.5rem;
+    color:rgb(140, 140, 235);
+}
+
+body{
+    width:100%;
+    height: 100vh;
+    color: antiquewhite;
+    margin:0;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    
+}
+
+form{
+    width: 60vw;
+    max-width: 500px;
+    min-width:300px;
+    margin: 0 auto;
+    padding: 2.5rem 2rem;
+    border-radius: 0.75rem;
+    background-color: rgb(30, 23, 83);
+
+}
+
+input{
+    border: none;
+    padding: 10px;
+    width: 98%;
+}
+
+select {
+    color: black;
+    width: 102%
+}
+    
+input, textarea, select {
+    background-color: bisque;
+    border-radius: 0.5rem;
+    margin: 10px 0 0 0;
+    height: 1.5rem;
+    min-height: 1rem;
+    max-height:4rem;
+    
+}
+
+textarea{
+    min-height:5rem;
+    width: 100%
+}
+label{
+    display: block;
+    margin:0.5rem 0;
+}
+
+button {
+    color: white;
+    width: 100%;
+    background-color: teal;
+    border-color:teal;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+    padding: 1rem;
+
+}
+
+button:hover {
+    background-color: rgb(6, 104, 6);
+    border-color: rgb(6, 104, 6);
+    cursor: pointer;
+    transition-duration: 0.5s; 
+}
+label, .b {
+    background-color: rgb(30, 23,83);
+
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5rem 0 0;
+    vertical-align: middle;
+    
+}
+.container {
+    border-color:azure;
+    border-width: 1rem;
+    border:0cm;
+
+}
+
+#dropdown1, #dropdown2 {
+    color: grey;
+    display:block;
+    min-height: 2.25rem;
+}
+
+.box{
+    display: block;
+}
+
+footer{
+    margin: auto;
+    width: 60vw;
+    max-width: 500px;
+    min-width:300px;
+    color: rgb(82, 89, 109);
+    text-align: center;
+    padding-bottom:3rem;
+    border-radius: 2.5rem;
+
+}   
+
+#info {
+    border-radius: 2.5rem;
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+
+
+/* enlarge submit button when clicked on 
+- add image in background
+- make form see through 
+- add a footer with fcc information
+-make checkboxes bigger 
+-go on possible improvements in inspect mode*/
